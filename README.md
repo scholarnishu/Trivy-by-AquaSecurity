@@ -20,3 +20,9 @@ please refer the official documentation for [installation](https://aquasecurity.
 </p>
 
 
+### Quick start
+
+ - Scan image for vulnerabilities
+
+    $ trivy image [YOUR_IMAGE_NAME]
+
