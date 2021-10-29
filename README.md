@@ -15,7 +15,7 @@
 
 please refer the official documentation for [installation](https://aquasecurity.github.io/trivy/v0.20.2/getting-started/installation/).
 
-<p>
+<p align="center">
     <img src="snaps/trivy.png" width="400" />
 </p>
 
