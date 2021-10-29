@@ -123,8 +123,17 @@ Failures: 1 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 1, CRITICAL: 0)
 
 </details>
 
+Standalone architecture
 
+<p align="center">
+    <img src="snaps/standalonTrivy.png" width="400" />
+</p>
 
+Client Server architecture
+
+<p align="center">
+    <img src="snaps/clientServerTrivy.png" width="400" />
+</p>
 
 
 #   Refer this official repository for explore  [Trivy Action](https://github.com/aquasecurity/trivy-action)
