@@ -126,13 +126,13 @@ Failures: 1 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 1, CRITICAL: 0)
 Standalone architecture
 
 <p align="center">
-    <img src="snaps/standalonTrivy.png" width="700" />
+    <img src="snaps/standalonTrivy.png" width="900" />
 </p>
 
 Client Server architecture
 
 <p align="center">
-    <img src="snaps/clientServerTrivy.png" width="700" />
+    <img src="snaps/clientServerTrivy.png" width="900" />
 </p>
 
 
