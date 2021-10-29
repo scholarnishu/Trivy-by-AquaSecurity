@@ -46,7 +46,7 @@
 
 ## Installation
 
-please refer the official documentation for [installation](https://aquasecurity.github.io/trivy/v0.20.2/getting-started/installation/).
+Please refer the official documentation for [installation](https://aquasecurity.github.io/trivy/v0.20.2/getting-started/installation/).
 
 <p align="center">
     <img src="snaps/trivy.png" width="400" />
@@ -125,4 +125,6 @@ Failures: 1 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 1, CRITICAL: 0)
 
 
 
-#   Refer this official repository forexploring [Trivy Action](https://github.com/aquasecurity/trivy-action)
+
+
+#   Refer this official repository for explore  [Trivy Action](https://github.com/aquasecurity/trivy-action)
