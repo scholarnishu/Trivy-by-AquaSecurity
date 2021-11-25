@@ -5,7 +5,12 @@
 
 ## Introduction
 
-- Trivy is a comprehensive, easy-to-use open source vulnerability scanner for container images. Since its introduction two years ago, the project has gained a broad following among open source community members. 
+- Trivy is a comprehensive, easy-to-use open source vulnerability scanner for container images. Since its introduction two years ago, the project has gained a broad following among open source community members.
+
+- A Trivy scan inspects your Dockerfile’s base image to find unresolved vulnerabilities that your containers will inherit. 
+Trivy can also look at operating system packages and source code dependencies added via popular package managers.
+
+Trivy has three scan types: container, Git repository, and filesystem directory.
 
 - I’m excited to share that it has now become the first container image vulnerability scanner to surpass 8,000 GitHub stars, making it the world's leading scanner.
 
