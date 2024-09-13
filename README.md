@@ -3,7 +3,7 @@
 - Trivy: [https://www.aquasec.com/products/trivy/](https://www.aquasec.com/products/trivy/)
 - Source: [https://github.com/thecyberbaby/Trivy-by-aquaSecurity](https://github.com/thecyberbaby/Trivy-by-aquaSecurity)
 
-## Introduction
+### Introduction
 
 - Trivy is a comprehensive, easy-to-use open source vulnerability scanner for container images. Since its introduction two years ago, the project has gained a broad following among open source community members.
 
@@ -17,39 +17,18 @@ Trivy can also look at operating system packages and source code dependencies ad
 - Unlike other open source scanners, Trivy covers both OS packages and language-specific dependencies and is easy to integrate into organizations’ software development pipelines.
 
 
-## Features
 
-- Comprehensive vulnerability detection
-  - OS packages (Alpine Linux, Red Hat Universal Base Image, Red Hat Enterprise Linux, CentOS, Oracle Linux, Debian, Ubuntu, Amazon Linux, openSUSE Leap, SUSE Enterprise Linux, Photon OS and Distroless)
-  - **Language-specific packages** (Bundler, Composer, Pipenv, Poetry, npm, yarn, Cargo, NuGet, Maven, and Go)
-
-- Misconfiguration detection (IaC scanning) 
-  - A wide variety of built-in policies are provided **out of the box**
-    - Kubernetes, Docker, Terraform, and more coming soon
-  - Support custom policies
-
-- Simple
-  - Specify only an image name, a path to config files, or an artifact name
-
-- Fast
-  - The first scan will finish within 10 seconds (depending on your network). Consequent scans will finish in single seconds.
-
-- Easy installation
+### Easy installation
   - `apt-get install`, `yum install` and `brew install` are possible.
   - **No pre-requisites** such as installation of DB, libraries, etc.
 
-- High accuracy
-  - **Especially [Alpine Linux][alpine] and RHEL/CentOS**
-  - Other OSes are also high
-
-- DevSecOps
   - **Suitable for CI** such as GitHub Actions, Jenkins, GitLab CI, etc.
 
 - Support multiple targets
   - container image, local filesystem and remote git repository
 
 
-## Installation
+### Installation
 
 Please refer the official documentation for [installation](https://aquasecurity.github.io/trivy/v0.20.2/getting-started/installation/).
 
@@ -295,4 +274,4 @@ Total: 28 (UNKNOWN: 0, LOW: 4, MEDIUM: 14, HIGH: 9, CRITICAL: 1)
 </details>
 
 
-#   Refer this official repository for explore  [Trivy Action](https://github.com/aquasecurity/trivy-action)
+###   Refer this official repository for explore  [Trivy Action](https://github.com/aquasecurity/trivy-action)
